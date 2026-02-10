@@ -21,6 +21,17 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-h1{
+.Header{
+  size: 500px;
   text-align: center;
+  text-shadow: #333333;
+  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
+}
+.BackgroundImage{
+    background-image: url("SidelineCentralBanner.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
